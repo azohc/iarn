@@ -1,0 +1,40 @@
+redes neuronales
+	neuronas:
+		vector de entrada tiene pesos asociados
+		xi: señales, ejemplos (entrada)
+		wi: importancia de la entrada xi (peso)
+		(activacion:) función escalón bipolar: devuelve 1 o -1 según el umbral
+			la neurona se activa si la suma de xi*wi supera el umbral
+		se añade x0 = 1 y w0 = -umbral
+
+		primero aprende, luego se utiliza
+
+		entrenamiento (aprendizaje)
+			red init con pesos aleatorios
+
+		regla de aprendizaje:
+			cuidado eligiendo el alpha
+
+			k marca la iteracion
+				tengo una entrada
+					calculo la salida del ejemplo i => î
+					estimo el error, y actualizo todos los pesos
+					si no hay error no actualizo los pesos
+
+			repetir hasta que no haya error en ninguna de las entradas
+
+
+	MLP multilayer perceptron
+	retropropagación
+		derivadas entre el error y el peso
+
+	una actualización de la red para todo el conjunto de entrenamiento = epoch = época
+
+
+	sobreajuste = overfitting = adaptarse demasiado a los datos de entradaf
+
+anaconda navigator -> jupyter
+crear carpeta en jupyter
+
+documentacion en el notebook -> con markdown
+documentar cada apartado

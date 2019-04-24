@@ -1,0 +1,51 @@
+{'data': array([
+        [   8.3252    ,   41.        ,    6.98412698, ...,    2.55555556, 37.88      , -122.23      ],
+        [   8.3014    ,   21.        ,    6.23813708, ...,    2.10984183,          37.86      , -122.22      ],
+        [   7.2574    ,   52.        ,    8.28813559, ...,    2.80225989,          37.85      , -122.24      ],
+        ...,
+        [   1.7       ,   17.        ,    5.20554273, ...,    2.3256351 ,          39.43      , -121.22      ],
+        [   1.8672    ,   18.        ,    5.32951289, ...,    2.12320917,          39.43      , -121.32      ],
+        [   2.3886    ,   16.        ,    5.25471698, ...,    2.61698113,          39.37      , -121.24      ]]), 
+        'target': array([4.526, 3.585, 3.521, ..., 0.923, 0.847, 0.894]), 
+        'feature_names': ['MedInc', 'HouseAge',  'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude'], 
+        'DESCR': '.. _california_housing_dataset:
+
+          California Housing dataset
+          --------------------------
+
+          **Data Set Characteristics:**
+
+              :Number of Instances: 20640
+
+              :Number of Attributes: 8 numeric, predictive attributes and the target
+
+              :Attribute Information:
+                  - MedInc        median income in block
+                  - HouseAge      median house age in block
+                  - AveRooms      average number of rooms
+                  - AveBedrms     average number of bedrooms
+                  - Population    block population
+                  - AveOccup      average house occupancy
+                  - Latitude      house block latitude
+                  - Longitude     house block longitude
+
+              :Missing Attribute Values: None
+
+              This dataset was obtained from the StatLib repository.
+          http://lib.stat.cmu.edu/datasets/
+
+          The target variable is the median house value for California districts.
+
+          This dataset was derived from the 1990 U.S. census, using one row per census
+          block group. A block group is the smallest geographical unit for which the U.S.
+          Census Bureau publishes sample data (a block group typically has a population
+          of 600 to 3,000 people).
+
+          It can be downloaded/loaded using the
+          :func:`sklearn.datasets.fetch_california_housing` function.
+
+          .. topic:: References
+
+              - Pace, R. Kelley and Ronald Barry, Sparse Spatial Autoregressions,
+                Statistics and Probability Letters, 33 (1997) 291-297
+                '}
